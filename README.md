@@ -1,19 +1,7 @@
 # Beach Recommender Application
 This project is a Beach Recommender Application that allows users to get recommendations for nearby beaches based on their current location and surfing skill level. The application fetches real-time and historical weather data, including wave heights, wind speeds, and other surf-related conditions. It uses ARIMA forecasting models to provide weather and wave predictions for multiple beaches and ranks them according to the user’s surfing ability level.
 
-Table of Contents
-Features
-Technologies
-Requirements
-Setup and Installation
-Usage
-Environment Variables
-Project Structure
-API Integration
-ARIMA Model
-Routes
-License
-Features
+# Features
 Location-based Beach Recommendations: Using the Google Maps API, the application geocodes the user’s location and finds nearby beaches within a 10,000-meter radius.
 Weather Data Forecasting: It fetches marine weather data, including wave height, wave period, swell height, and wind speed from the Storm Glass API.
 ARIMA Forecasting: The app applies the ARIMA (AutoRegressive Integrated Moving Average) model to forecast surf conditions for the next 5 days.
