@@ -117,5 +117,3 @@ The model order is:
   - 1 for difference terms
 
   - 0 for moving average terms
-# License
-This project is licensed under the MIT License. See the LICENSE file for details.
